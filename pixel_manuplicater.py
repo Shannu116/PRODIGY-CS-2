@@ -21,6 +21,8 @@ def decryption_image(image_path):
 def main():
     print("image encryption tool")
     password = input("enter the password :")
+
+#here you can change the password    
     if password == 'pixel':
         choice = input("enter the 'e' for encrypt and 'd' for decrypt:")
         key = len(password)
